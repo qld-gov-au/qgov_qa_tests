@@ -424,7 +424,7 @@
 		},
 
 
-		// passive voice
+		// passive voice (terms that precede past participles)
 		PASSIVE_VOICE = [
 			"has been",
 			"hasn't been",
@@ -454,7 +454,7 @@
 			// no ',' on last line
 		],
 
-		// list of non preferred terms (case sensitive matching)
+		// past participles (terms that follow passive voice)
 		PAST_PARTICIPLES = [
 			'agreed',
 			'alleged',
