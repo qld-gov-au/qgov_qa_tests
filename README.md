@@ -6,7 +6,7 @@ These tests use the [QUnit](http://qunitjs.com/) unit testing framework to flag 
 
 Unit tests are pass/fail by nature. Where possible, tests should be written to fail on known issues. It is possible to 'fail' a test to flag a potential issue for manual review, but this may decrease confidence in the overall test process.
 
-To improve the user interface, content that fails a test has been flagged shoudl be highlighted in the page so it is easier for the author to find and review.
+To improve the user interface, content that fails a test has been flagged should be highlighted in the page so it is easier for the author to find and review. Highlighting is provided by the excellent [jQuery.highlightRegex](https://github.com/jbr/jQuery.highlightRegex) plugin.
 
 ### Writing a new test
 
